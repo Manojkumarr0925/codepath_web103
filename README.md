@@ -1,61 +1,57 @@
-# Creatorverse ✨
+# WEB103 Prework - *Creatorverse*
 
-A full-stack React app to manage your favorite content creators. Built with React, Vite, React Router, and Supabase.
+Submitted by: **Manoj Ravi Kumar**
 
-## Features
+About this web app: **Creatorverse is a full-stack app to manage your favorite content creators. You can view, add, edit, and delete creators across platforms like YouTube, Twitch, and TikTok.**
 
-- [x] Display at least five content creators on the homepage
-- [x] Each creator item includes name, URL link, and description
-- [x] API calls use async/await via Supabase client
-- [x] Clicking a creator takes you to their detail page
-- [x] Each creator has a unique URL (`/creator/:id`)
-- [x] Edit a creator's name, URL, description, and image
-- [x] Delete a creator
-- [x] Add a new creator with name, URL, and description
-- [x] New creator appears in the list after adding
-- [x] Show image of each creator on their card (stretch)
-- [x] Creative card layout (stretch)
+Time spent: **8** hours
 
-## Setup
+## Required Features
 
-### 1. Install dependencies
+The following **required** functionality is completed:
 
-```bash
-npm install
-```
+- [x] **A logical component structure in React is used to create the frontend of the app**
+- [x] **At least five content creators are displayed on the homepage of the app**
+- [x] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
+- [x] **API calls use the async/await design pattern via Axios or fetch()**
+- [x] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
+- [x] **Each content creator has their own unique URL**
+- [x] **The user can edit a content creator to change their name, url, or description**
+- [x] **The user can delete a content creator**
+- [x] **The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage**
 
-### 2. Set up Supabase
+The following **optional** features are implemented:
 
-1. Go to [supabase.com](https://supabase.com) and create a project named `creatorverse`
-2. Create a table called `creators` with these columns:
-   - `id` (int8, primary key, auto-generated)
-   - `name` (text)
-   - `url` (text)
-   - `description` (text)
-   - `imageURL` (text, nullable)
-3. Disable Row Level Security on the table
-4. Enable Realtime on the table
+- [ ] Picocss is used to style HTML elements
+- [x] The content creator items are displayed in a creative format, like cards instead of a list
+- [x] An image of each content creator is shown on their content creator card
 
-### 3. Add your Supabase credentials
+The following **additional** features are implemented:
 
-Open `src/client.js` and replace the placeholder values:
+* [x] Dark-themed custom UI with bold typography and accent colors
+* [x] Responsive card grid layout
+* [x] Delete confirmation dialog to prevent accidental deletions
+* [x] Error handling and loading states throughout the app
 
-```js
-const URL = 'YOUR_SUPABASE_PROJECT_URL';
-const API_KEY = 'YOUR_SUPABASE_ANON_KEY';
-```
+## Video Walkthrough
 
-Find these in: Supabase Dashboard → Settings → API
+Here's a walkthrough of implemented required features:
 
-### 4. Run the app
+👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-```bash
-npm run dev
-```
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with [Kap](https://getkap.co/)
 
-## Tech Stack
+## Notes
 
-- React 18
-- Vite
-- React Router v6
-- Supabase
+Setting up Supabase Row Level Security required disabling RLS on the creators table to allow public read/write access. React Router v6 with useRoutes was used to handle all navigation between pages cleanly.
+
+## License
+
+Copyright [2026] [Manoj Ravi Kumar]
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+> http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
