@@ -37,7 +37,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='https://www.loom.com/share/ec35965703114df0ab0e51b4761d6cfb' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+👉🏿<src='https://www.loom.com/share/ec35965703114df0ab0e51b4761d6cfb' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 ## Notes
