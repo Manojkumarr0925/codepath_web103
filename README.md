@@ -6,7 +6,7 @@ About this web app: **Creatorverse is a full-stack app to manage your favorite c
 
 Time spent: **8** hours
 
-## Required Features
+## Required Features.    
 
 The following **required** functionality is completed:
 
@@ -43,13 +43,3 @@ Here's a walkthrough of implemented required features:
 ## Notes
 
 Setting up Supabase Row Level Security required disabling RLS on the creators table to allow public read/write access. React Router v6 with useRoutes was used to handle all navigation between pages cleanly.
-
-## License
-
-Copyright [2026] [Manoj Ravi Kumar]
-
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
-
-> http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
